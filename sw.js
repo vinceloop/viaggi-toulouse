@@ -1,4 +1,4 @@
-const CACHE='toulouse-audio-v6';
+const CACHE='toulouse-audio-v7';
 const CORE=['./','./index.html','./manifest.webmanifest'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(self.clients.claim()));
