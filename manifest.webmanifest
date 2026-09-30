@@ -1,0 +1,11 @@
+{
+  "name": "Toulouse · Passeggiata storica",
+  "short_name": "Toulouse",
+  "description": "Audioguida personale per la passeggiata storica di Tolosa — sabato 3 ottobre 2026.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f2ed",
+  "theme_color": "#b84a61",
+  "lang": "it"
+}
